@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #f8f9fa;
+    color: #333;
+  }
+  
+  header {
+    background: #111;
+    padding: 1rem 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #282c34;
+    color: white;
+  }
+  
+  .hero .highlight {
+    color: #00bcd4;
+  }
+  
+  .section {
+   
+    margin: auto;
+    background-color: white;
+  }
+  
+  .project-grid {
+    display: grid;
+   
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    
+    background:rgb(203, 165, 165);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background: #111;
+    color: white;
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 250px; /* Adjust the size as you like */
+    height: 250px; /* Adjust the size as you like */
+    object-fit: cover;
+    margin-top: 20px;
+  }
+  #typed-text {
+    display: inline-block;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #00bcd4; /* Blinking cursor */
+    animation: blinkCursor 0.75s step-end infinite;
+    color: #e2c0c0; /* or any color that matches your theme */
+    margin-top: 10px;
+  }
+  
+  @keyframes blinkCursor {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #00bcd4;
+    }
+  }
+  .sections{
+    padding: 4rem 2rem;
+    background: white;
+  }
+  .knowledge{
+    padding: 4rem 2rem;
+    background: white;
+  }
+  .info{
+    padding: 4rem 2rem;
+    background:white; 
+  }
